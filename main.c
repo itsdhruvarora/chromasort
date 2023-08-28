@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL2/SDL.h>
-#include "intro.h"
-#include "render.h"
-#include "bubblesort.h"
-#include "swap.h"
-#include "selectionsort.h"
-#include "insertionsort.h"
-#include "mergesort.h"
-#include "quicksort.h"
+#include "headers/intro.h"
+#include "headers/render.h"
+#include "headers/bubblesort.h"
+#include "headers/swap.h"
+#include "headers/selectionsort.h"
+#include "headers/insertionsort.h"
+#include "headers/mergesort.h"
+#include "headers/quicksort.h"
+
 
 
 // Constants

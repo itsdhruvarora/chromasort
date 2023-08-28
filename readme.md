@@ -59,9 +59,8 @@ The project is organized into several key components:
   ./sorting-visualization
   ```
 
-##Usage
-
-  Upon running the program, you'll be presented with an introductory screen and a list of available sorting algorithms.
-  Choose a sorting algorithm by entering its corresponding number.
-  The visualization will start, showing each step of the sorting process graphically.
-  Follow the on-screen instructions to navigate through the visualization.
+## Usage
+  -Upon running the program, you'll be presented with an introductory screen and a list of available sorting algorithms.
+  -Choose a sorting algorithm by entering its corresponding number.
+  -The visualization will start, showing each step of the sorting process graphically.
+  -Follow the on-screen instructions to navigate through the visualization.

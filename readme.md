@@ -13,9 +13,7 @@ This project provides a visualization tool for various sorting algorithms. Users
 
 ## Demo
 
-![Demo GIF](images/IMG_2548.MP4)
-
-## Features
+![Project Logo](images/IMG_2548.MP4)
 
 ## Features
 

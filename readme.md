@@ -18,6 +18,11 @@ This project provides a visualization tool for various sorting algorithms. Users
 ## Features
 
 - Interactive visualization of popular sorting algorithms
+  -> Bubble Sort
+  -> Selection Sort
+  -> Insertion Sort
+  -> Merge Sort
+  -> Quick Sort
 - Clear step-by-step animations
 - Easy-to-use interface
 

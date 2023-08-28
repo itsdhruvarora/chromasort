@@ -24,7 +24,6 @@ This project provides a visualization tool for various sorting algorithms. Users
 - **Clear Animations:** Visual animations will clearly demonstrate how data is manipulated during sorting.
 - **Platform:** The project will be implemented in C using the SDL library for graphics.
 
-
 ## Design
 
 The project is organized into several key components:
@@ -33,8 +32,6 @@ The project is organized into several key components:
 - **Headers:** The `headers` directory contains header files corresponding to the source code files, ensuring modularity and separation of concerns.
 - **Graphics:** SDL graphics are used to create interactive animations that display each sorting algorithm's progress.
 - **User Input:** The tool will prompt users to select a sorting algorithm and provide guidance on using the visualization.
-
-
 
 ## Getting Started
 
@@ -47,20 +44,22 @@ The project is organized into several key components:
 
 2. **Compile the Project**
 
-  Compile the necessary files to create the visualization tool.
+Compile the necessary files to create the visualization tool.
 
-  ```bash
-  gcc source/main.c source/intro.c -Iheaders -o sorting-visualization
-  ```
+```bash
+gcc source/main.c source/intro.c -Iheaders -o sorting-visualization
+```
 
 3. **Run the Program**
-  Run the compiled program to interact with the visualization.
-  ```bash
-  ./sorting-visualization
-  ```
+   Run the compiled program to interact with the visualization.
+
+```bash
+./sorting-visualization
+```
 
 ## Usage
-  -Upon running the program, you'll be presented with an introductory screen and a list of available sorting algorithms.
-  -Choose a sorting algorithm by entering its corresponding number.
-  -The visualization will start, showing each step of the sorting process graphically.
-  -Follow the on-screen instructions to navigate through the visualization.
+
+- Upon running the program, you'll be presented with an introductory screen and a list of available sorting algorithms.
+- Choose a sorting algorithm by entering its corresponding number.
+- The visualization will start, showing each step of the sorting process graphically.
+- Follow the on-screen instructions to navigate through the visualization.

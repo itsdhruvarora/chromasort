@@ -13,7 +13,7 @@ This project provides a visualization tool for various sorting algorithms. Users
 
 ## Demo
 
-<img src = "https://github.com/itsdhruvarora/chromasort/blob/main/images/IMG_2548.MP4">
+<vid src = "https://github.com/itsdhruvarora/chromasort/blob/main/images/IMG_2548.MP4">
 ## Features
 
 - Interactive visualization of popular sorting algorithms

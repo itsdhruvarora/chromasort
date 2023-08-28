@@ -1,1 +1,31 @@
-demo
+# Sorting Algorithms Visualization
+
+This project provides a visualization tool for various sorting algorithms. Users can see how different sorting algorithms work step by step using interactive graphics.
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Demo
+
+![Demo GIF](demo.gif)
+
+## Features
+
+- Interactive visualization of popular sorting algorithms
+- Clear step-by-step animations
+- Easy-to-use interface
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/sorting-algorithms-visualization.git
+   cd sorting-algorithms-visualization
+   ```

@@ -5,8 +5,9 @@ This project provides a visualization tool for various sorting algorithms. Users
 ## Table of Contents
 
 - [Demo](#demo)
-- [Features](#features)
+- [Features](#specifications)
 - [Getting Started](#getting-started)
+- [Pre-Requisites](#pre-requisite)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,12 +34,37 @@ The project is organized into several key components:
 - **Graphics:** SDL graphics are used to create interactive animations that display each sorting algorithm's progress.
 - **User Input:** The tool will prompt users to select a sorting algorithm and provide guidance on using the visualization.
 
+
+## Pre-Requisite
+
+-SDL2 should be installed on your system
+
+**ARCH**
+
+```bash
+   sudo pacman -Syu sdl2
+```
+
+**UBUNTU**
+
+```bash
+   sudo apt-get update
+   sudo apt-get install libsdl2-dev
+```
+
+**CENTOS**
+
+```bash
+   sudo yum install SDL2-devel
+```
+
+
 ## Getting Started
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/sorting-algorithms-visualization.git
+   git clone https://github.com/itsdhruvarora/chromasort.git
    cd sorting-algorithms-visualization
    ```
 
@@ -47,14 +73,14 @@ The project is organized into several key components:
 Compile the necessary files to create the visualization tool.
 
 ```bash
-gcc source/main.c source/intro.c -Iheaders -o sorting-visualization
+   gcc -o visualizer main.c -lSDL2 -L. -lvis
 ```
 
 3. **Run the Program**
    Run the compiled program to interact with the visualization.
 
 ```bash
-./sorting-visualization
+./visualizer
 ```
 
 ## Usage
@@ -63,3 +89,19 @@ gcc source/main.c source/intro.c -Iheaders -o sorting-visualization
 - Choose a sorting algorithm by entering its corresponding number.
 - The visualization will start, showing each step of the sorting process graphically.
 - Follow the on-screen instructions to navigate through the visualization.
+
+
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Open a pull request to the `main` branch of this repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

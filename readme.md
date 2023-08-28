@@ -35,3 +35,25 @@ This project provides a visualization tool for various sorting algorithms. Users
    git clone https://github.com/your-username/sorting-algorithms-visualization.git
    cd sorting-algorithms-visualization
    ```
+
+2 **Compile the project**:
+
+Compile the necessary files to create the visualization tool.
+
+    ```bash
+    gcc source/main.c source/intro.c -Iheaders -o sorting-visualization
+    ```
+
+Run the program:
+Run the compiled program to interact with the visualization.
+
+    ```bash
+    ./sorting-visualization
+    ```
+
+#Usage
+
+Upon running the program, you'll be presented with an introductory screen and a list of available sorting algorithms.
+Choose a sorting algorithm by entering its corresponding number.
+The visualization will start, showing each step of the sorting process graphically.
+Follow the on-screen instructions to navigate through the visualization.

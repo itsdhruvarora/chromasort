@@ -12,7 +12,7 @@ This project provides a visualization tool for various sorting algorithms. Users
 - [License](#license)
 
 ## Demo
-
+<img src = >
 <img src = "https://github.com/itsdhruvarora/chromasort/blob/main/images/ezgif-2-59c8117805.gif">
 
 ## Features
@@ -26,8 +26,6 @@ This project provides a visualization tool for various sorting algorithms. Users
 - Clear step-by-step animations
 - Easy-to-use interface
 
-- Clear step-by-step animations
-- Easy-to-use interface
 
 ## Getting Started
 

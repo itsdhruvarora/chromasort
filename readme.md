@@ -35,3 +35,11 @@ This project provides a visualization tool for various sorting algorithms. Users
    git clone https://github.com/your-username/sorting-algorithms-visualization.git
    cd sorting-algorithms-visualization
    ```
+
+2. **Compile the Project**
+
+Compile the necessary files to create the visualization tool.
+
+```bash
+gcc source/main.c source/intro.c -Iheaders -o sorting-visualization
+```

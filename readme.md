@@ -14,8 +14,8 @@ This project provides a visualization tool for various sorting algorithms. Users
 
 ## Demo
 
-![Demo Screenshot](https://github.com/itsdhruvarora/chromasort/blob/main/images/Screenshot_2023-08-28-13-16-50_1920x1080.png)
-![Demo GIF](https://github.com/itsdhruvarora/chromasort/blob/main/images/ezgif-2-59c8117805.gif)
+<img src = "https://github.com/itsdhruvarora/chromasort/blob/main/images/Screenshot_2023-08-28-13-16-50_1920x1080.png">
+<img src = "https://github.com/itsdhruvarora/chromasort/blob/main/images/ezgif-2-59c8117805.gif">
 
 ## Specifications
 

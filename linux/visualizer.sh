@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Change to the directory containing your C source code
+cd /home/dhruv/Desktop/sort-vis/
+
 # Compile the project
-gcc -o visualizer /home/dhruv/Desktop/sort-vis/main.c -L/home/dhruv/Desktop/sort-vis/linux/ -lvis -lSDL2
+gcc -o visualizer main.c -L./linux/ -lvis -lSDL2 -lSDL2_ttf
 
 # Run the compiled program
 ./visualizer

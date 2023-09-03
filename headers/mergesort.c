@@ -1,4 +1,5 @@
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
 #include "render.h"
 #include "swap.h"
 #include "mergesort.h"
@@ -43,16 +44,16 @@ void merge(int arr[], int l, int m, int r)
     }
 }
  
-void mergeSort(int arr[], int l, int r, SDL_Renderer *renderer)
+void mergeSort(int arr[], int l, int r, SDL_Renderer *renderer, TTF_Font *font)
 {
     if (l < r) {
         int m = l + (r - l) / 2;
  
-        mergeSort(arr, l, m, renderer);
-        mergeSort(arr, m + 1, r, renderer);
+        mergeSort(arr, l, m, renderer, font);
+        mergeSort(arr, m + 1, r, renderer, font);
  
         merge(arr, l, m, r);
-        render(renderer, arr);
+        render(renderer, arr, font);
         SDL_Delay(300);
     }
 }

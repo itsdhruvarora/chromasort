@@ -5,7 +5,7 @@
 #include "swap.h"
 #include "selectionsort.h"
 
-void selectionSort(int arr[], int size, SDL_Renderer *renderer) {
+void selectionSort(int arr[], int size, SDL_Renderer *renderer, TTF_Font *font) {
     int i, j, min_idx;
     for (i = 0; i < size - 1; i++) {
         min_idx = i;
@@ -17,7 +17,7 @@ void selectionSort(int arr[], int size, SDL_Renderer *renderer) {
         if (min_idx != i) {
             swap(&arr[min_idx], &arr[i]);
         }
-        render(renderer, arr);
+        render(renderer, arr, font);
         SDL_Delay(500); // Delay to visualize the sorting process
     }
 }

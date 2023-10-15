@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
 #include <time.h>
@@ -61,11 +62,14 @@ int main(int argc, char * argv[]) {
 
   font = TTF_OpenFont("OpenSans-Light.ttf", 12);
 
+  
+  while(true){
   clearConsole();
 
   // Array to be sorted
   printIntro();
 
+  srand(time(NULL));
   int arr[ARRAY_SIZE];
   for (int i = 0; i < ARRAY_SIZE; ++i) {
     arr[i] = rand() % 50;
@@ -128,7 +132,13 @@ int main(int argc, char * argv[]) {
 
   printSortingInfo(choice);
 
-
+  int l;
+  printf("Press 1 if you want to restart the program. ");
+  scanf("%d", &l);
+  if(l != 1){
+    printf("Thanks for Using my Program!. Hope You Enjoyed it. :=)");
+    break;
+  }
 
 
   fflush(stdout);
@@ -148,6 +158,7 @@ int main(int argc, char * argv[]) {
   SDL_DestroyWindow(window);
   TTF_Quit();
   SDL_Quit();
+  }
 
 
 
